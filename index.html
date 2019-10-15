@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/stylesheet.css">
+
+		<title>Number Methods</title>
+	</head>
+	<body>
+
+		<div class="jumbotron">
+			<h1 class="display-4 text-center">Number Methods</h1>
+		</div>
+
+		<div class="container bg-light">
+
+			<div class="accordion" id="accordionExample">
+				<div class="card">
+					<!-- header, clickable link -->
+					<div class="card-header" id="headingOne">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								The ParseInt() Method
+							</button>
+						</h2>
+					</div>
+
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							<h4>Key Details</h4>
+			
+							<ul>
+								<li>Parses a string and returns an interger(whole number)</li>
+								<li>Spaces are allowed</li>
+								<li>Only the first number is returned</li>
+								<li>Will ignore strings of letters and special characters</li>
+								<li><b>Syntax: </b>parseInt('string'||variable)</li>
+							</ul>
+				
+							<h4>Eample</h4>
+				
+							<ul>
+								<li><b>First Example:</b> '10.39564 68 years' is the string included</li>
+								<li><b>I used the variable: </b>var eg1 = '10.39564 68 years';</li>
+								<li><b>Syntax: </b>document.getElementById('ri1').innerHTML += parseInt(eg1);</li>
+								<ul>
+									<li id="ri1"><b>Answer: </b></li>
+								</ul>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			
+				<div class="card">
+					<!-- header, clickable link -->
+					<div class="card-header" id="headingTwo">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
+								The parseFloat() Method
+							</button>
+						</h2>
+					</div>
+
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						<div class="card-body">
+							<h4>Key Details</h4>
+			
+							<ul>
+								<li>Parses a string and returns a float(number that can include decimal places)</li>
+								<li>Spaces are allowed</li>
+								<li>Only the first number is returned</li>
+								<li>Will ignore strings of letters and special characters</li>
+								<li><b>Syntax: </b>parseFloat('string'||variable)</li>
+							</ul>
+				
+							<h4>Example</h4>
+				
+							<ul>
+								<li><b>Second Example: </b>'10.39564 68 years' is the string included</li>
+								<li><b>I used the variable: </b>var eg2 = '74.38234 45 months';</li>
+								<li><b>Syntax: </b>document.getElementById('ri1').innerHTML += parseInt(eg2);</li>
+				
+								<ul>
+									<li id="ri2"><b>Answer: </b></li>
+								</ul>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+		<!-- End of container -->
+		</div>
+
+		<!-- Optional JavaScript -->
+		<script src="js/script.js"></script>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
